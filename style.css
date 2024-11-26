@@ -123,6 +123,70 @@ nav button:hover{
     
 }
 
-    
+.sponsors{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
 
+.sponsors img{
+    width: 70%;
+}
+
+.post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.postImage img{
+    width: 100%;
+}
+
+.postImage{
+    width: 40%;
+}
+
+.postText{
+    width: 40%;
+}
+
+.postText h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.30000001192092896px;
+    color: rgba(3, 77, 130, 1);
+    width: 80%;
+}
+
+.postText p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.30000001192092896px;
+    color: rgba(144, 163, 180, 1);
+}
+.postText a{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.83px;
+    color: rgba(4, 170, 221, 1);
+} 
+.iPhone{
+    position: absolute;
+}
+
+.arrow{
+    position: relative;
+}
 
