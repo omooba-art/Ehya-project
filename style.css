@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.headerHero{
+    background: rgba(0, 168, 219, 1);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navBar{
+    display: flex;
+    gap: 2rem;
+}
+.navBar li a{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.23px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+select{
+    background: none;
+    border: none;
+    color: #FFFFFF;
+}
+
+nav button{
+    background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+
+.textSide{
+    margin-left: 6rem;
+}
+
+.textSide h2{
+    font-family: DM Sans;
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.textSide p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #fff;
+    width: 60%;
+}
+
+.curve img{
+    width: 20%;
+}
+
+
+.imageSide img{
+     width: 100;
+}
+
+.demo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.demo button{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.83px;
+    text-align: center;
+    color: rgba(0, 168, 219, 1);
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+}
+
+.demo button:hover{
+    color: #fff;
+    background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
+}
+
+nav button:hover{
+    color: rgba(0, 168, 219, 1);;
+    background: #fff;
+
+    
+}
+
+    
+
+
