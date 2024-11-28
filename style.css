@@ -117,10 +117,7 @@ nav button{
 }
 
 nav button:hover{
-    color: rgba(0, 168, 219, 1);;
-    background: #fff;
-
-    
+    color: rgba(0, 1g  
 }
 
 .sponsors{
@@ -189,4 +186,65 @@ nav button:hover{
 .arrow{
     position: relative;
 }
+
+.posttextfosola{
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+}
+.posttextfosola h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.30000001192092896px;
+    color:rgba(3, 77, 130, 1);
+    width: 50%;
+}
+
+.posttextfosola p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.30000001192092896px;
+    color: rgba(144, 163, 180, 1);
+    width: 60%;
+}
+
+.posttextfosola a{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.83px;
+    color: rgba(4, 170, 221, 1);
+}
+
+.posttextfosola ol{
+    width: 162px;
+    height: 135px;
+    top: 2242.28px;
+    left: 140px;
+    color: rgba(144, 163, 180, 1);
+    padding: auto;
+}
+
+.fosola img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    vertical-align: middle;
+    padding-right: 60px;
+}
+
+ol{
+    padding-left: 20px;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
 
