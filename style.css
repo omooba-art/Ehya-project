@@ -325,6 +325,7 @@ li{
     margin: auto;
     display: flex;
     justify-content: space-between;
+    padding: 4rem 0;
 }
 
 .growthLeft h3{
@@ -333,6 +334,9 @@ li{
     font-weight: 700;
     line-height: 52px;
     color: rgba(3, 77, 130, 1);
+    margin-right: 40%;
+    width: 80%;
+
 }
 
 .growthLeft p{
@@ -341,6 +345,8 @@ li{
     font-weight: 400;
     line-height: 26px;
     color: rgba(144, 163, 180, 1);
+    margin-right: 30%;
+    width: 100%;
 }
 
 .growthText p{
@@ -378,3 +384,160 @@ li{
     color: rgba(144, 163, 180, 1);
 
 }
+
+.brand{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 90%;
+    margin: 33px 0 0 85px;
+    justify-content: space-between;
+    background-image: url(/images/backgroundandmask.png);
+    margin: auto;
+    margin-bottom: 5rem;
+    padding: 5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.customer{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.brandLeft h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    width: 30%;
+    padding-bottom: 2%;
+    color:rgba(255, 255, 255, 1)
+
+}
+
+.brandLeft p{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+
+.brandLeft img{
+    align-items: center;
+
+}
+
+.brandLeft a{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.brandRight{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+.brandRight button{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.83px;
+    text-align: center;
+    color: rgba(0, 184, 217, 1);
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0 0 0;
+}
+
+footer{
+    background:rgba(8,19,21,1);
+    width: 100%;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.footLogo img{
+    width: 20%;
+}
+
+.footWrap{
+    display: flex;
+    width: 85%;
+    margin: auto;
+
+}
+
+.footRight ul{
+    display: block;
+}
+
+.footRight{
+    display: flex;
+    gap: 2rem;
+}
+
+.footLeft{
+    width: 40%;
+}
+
+li{
+    list-style-type: none;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.83px;
+    color:rgba(211, 214, 216, 1);
+    margin-bottom: 1rem;
+}
+
+.footRight h4{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.44px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 1.5rem;
+}
+
+.footLeft p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(211, 214, 216, 1);
+    padding: 1rem 0;
+    width: 60%;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.copyright p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.83px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 1rem ;
+
+
+}
+
