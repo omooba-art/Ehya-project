@@ -23,22 +23,24 @@ nav{
     display: flex;
     gap: 2rem;
     align-items: center;
+    color: #FFFFFF;
 }
 
 .navBar{
     display: flex;
     gap: 2rem;
 }
+
 .navBar li a{
     font-family: DM Sans;
     font-size: 14px;
     font-weight: 500;
     line-height: 18.23px;
     letter-spacing: 0.30000001192092896px;
+    color: #FFFFFF;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -88,7 +90,7 @@ nav button{
 
 
 .imageSide img{
-     width: 100;
+     width: 100%;
 }
 
 .demo{
@@ -142,6 +144,10 @@ nav button:hover{
     margin: auto;
 }
 
+/* .iPhone{
+    width: 40%;
+} */
+
 .postImage img{
     width: 100%;
 }
@@ -181,16 +187,23 @@ nav button:hover{
 } 
 .iPhone{
     position: absolute;
+    width: 40%;
 }
 
 .arrow{
     position: relative;
 }
 
+.arrow img{
+    width: 10%;
+}
+
 .posttextfosola{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 90px;
+    width: 80%;
+    margin: 10% 0 0 10%;
 }
 .posttextfosola h3{
     font-family: DM Sans;
@@ -220,31 +233,14 @@ nav button:hover{
     color: rgba(4, 170, 221, 1);
 }
 
-.posttextfosola ol{
-    width: 162px;
-    height: 135px;
-    top: 2242.28px;
-    left: 140px;
-    color: rgba(144, 163, 180, 1);
-    padding: auto;
+.posttextfosola ul{
+    display: list-item;
+    color: greenyellow;
+    margin: 2% 0 2% 0;
 }
 
 .fosola img{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
-    margin: auto;
-    vertical-align: middle;
-    padding-right: 60px;
-}
-
-ol{
-    padding-left: 20px;
-}
-
-li{
-    padding-bottom: 10px;
 }
 
 .hashtag{
@@ -277,9 +273,9 @@ li{
 
 .cardWrap{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
-    width: 80%;
+    width: 85%;
     margin: auto;
     margin-top: 2rem;
     height: 60vh;
@@ -291,6 +287,10 @@ li{
     border-radius: 8px;
     width: 100%;
     height: 300px;
+}
+
+.card img{
+    width: 30%;
 }
 
 .card:hover{
@@ -454,15 +454,15 @@ li{
 .brandRight button{
     font-family: DM Sans;
     font-size: 16px;
-    font-weight: 500;
-    line-height: 20.83px;
-    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+    align-items: center;
     color: rgba(0, 184, 217, 1);
     background: #fff;
-    border: none;
     cursor: pointer;
-    padding: 1rem 1.5rem;
-    margin: 1rem 0 0 0;
+    padding: 1rem 2rem;
+    margin:  0 2rem 0 0;
+    display: flex;
 }
 
 footer{
@@ -488,6 +488,9 @@ footer{
 }
 
 .footRight{
+    display: flex;
+    gap: 2rem;
+    width: 60%;
     display: flex;
     gap: 2rem;
 }
@@ -536,8 +539,418 @@ li{
     font-weight: 700;
     line-height: 20.83px;
     color: rgba(255, 255, 255, 1);
-    margin-top: 1rem ;
+    margin-top: 1rem;
+}
+
+.socials img{
+    width: 15%;
+}
+
+.copyright img{
+    width: 5%;
+}
+
+@media (max-width: 1024px){
+    .textSide h2{
+    font-size: 44px;
+    width: 100%;
+}
+
+.textSide p{
+    width: 90%;
+    padding: 1rem 0;
+}
+
+.curve img{
+    width: 25%;
+}
+
+.demo button{
+    font-size: 16px;
+    width: 55%;
+}
+
+.demo{
+    margin-bottom: 3rem;
+}
+
+.textSide{
+    width: 50%;
+}
+
+.imageSide{
+    width: 50%;
+}
+
+.iPhone{
+    width: 35%;
+}
+
+.postText{
+    width: 50%;
+}
+
+.postText h3{
+    width: 100%;
+}
+
+.cardWrap{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    height: 60vh;
+}
+
+.card{
+    background: #fff;
+    padding: 1rem 0.5rem 3rem 2rem;
+    border-radius: 8px;
+    width: 100%;
+    height: 320px;
+}
+
+.growthLeft h3{
+    font-size: 26px;
+    width: 90%;
+
+}
+
+.growthLeft p{
+    font-size: 16px;
+    width: 90%;
+}
+
+.footLeft p{
+    font-size: 16px;
+    width: 70%;
+}
+
+li{
+    font-size: 16px;
+    font-weight: 150;
+    width: 150%;
+    line-height: 27px;
+}
+
+
+.footRight h4{
+    margin-right: 1rem;
+}
 
 
 }
 
+
+@media (max-width: 768px){
+nav{
+    width: 100%;
+    align-items: center;
+}
+
+.navBar{
+    margin-bottom: -1rem;
+}
+
+.logo{
+    width: 30%;
+}
+
+.textSide{
+    margin-left: 4rem;
+}
+
+.textSide h2{
+    font-size: 34px;
+}
+
+.textSide p{
+    font-size: 13px;
+}
+
+.demo button{
+    font-size: 16px;
+    padding: 0.7rem 1rem;
+    width: 90%;
+}
+
+.postText h3{
+    font-size: 28px;
+    line-height: 40px;
+    width: 100%;
+}
+
+.postText p{
+    font-size: 14px;
+    line-height: 22px;
+    padding: 2rem 0;
+}
+
+.topHashtag h2{
+    font-size: 28px;
+    line-height: 52px;
+}
+
+.topHashtag p{
+    font-size: 14px;
+    width: 60%;
+}
+
+.cardWrap{
+    gap: 1rem;
+    height: 60vh;
+}
+
+.card{
+    padding: 1rem;
+}
+
+.card h5{
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+
+.card p{
+    font-size: 13x;
+}
+
+
+.card img{
+    width: 40%;
+}
+
+.footRight{
+    gap: 2rem;
+    width: 70%;
+}
+
+.footLeft{
+    width: 40%;
+}
+
+li{
+    font-size: 12px;
+}
+
+.footRight h4{
+    font-size: 14px;
+}
+
+.copyright p{
+    font-size: 12px;
+}
+}
+
+@media (max-width: 425px){
+nav{
+    display: none;
+}
+
+.hero{
+    display: block;
+    width: 85%;
+    margin: auto;
+    margin-top: 4rem;
+    
+}
+
+.textSide{
+        margin-left: 0rem;
+        width: 100%;
+}
+
+.imageSide{
+    width: 100%;
+}
+
+.sponsors{
+    width: 30%;
+    margin: 3rem auto;
+    display: block;
+}
+
+.sponsors img{
+    padding-bottom: 1rem;
+}
+
+.post{
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+}
+
+.postImage{
+    width: 100%;
+}
+
+.postText{
+    width: 100%;
+}
+
+.iPhone{
+    width: 80%;
+    position: absolute;
+}
+
+.postText h3{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 55px;
+    width: 100%;
+
+}
+
+.postText p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.topHashtag p{
+    font-size: 16px;
+    width: 70%;
+}
+
+.cardWrap{
+    flex-direction: column;
+    width: 85%;
+    height: 60%;
+}
+
+.card{
+    width: 100%;
+    height: 250px;
+}
+
+.card:hover{
+    transform: scale(1);
+    transition: 0.5s;
+    border-radius: 8px;
+}
+
+.card img{
+    width: 20%;
+    padding-left: 1rem;
+}
+
+.card h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    padding: 1rem;
+}
+
+.card p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 1rem;
+}
+.growth{
+    width: 85%;
+    margin: auto;
+    flex-direction: column;
+    padding: 6rem 0;
+}
+
+.growthLeft h3{
+    font-size: 36px;
+    width: 100%;
+}
+
+.growthLeft p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(144, 163, 180, 1);
+}
+
+.growthText p{
+    font-size: 16px;
+    width: 100%;
+}
+
+.hart{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.hartImage{
+    width: 20%;
+}
+
+.hartName{
+    width: 65%;
+}
+
+.brand{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 5rem;
+    padding: 3rem;
+    flex-direction: column;
+}
+
+.customer{
+   margin: 2rem 0;
+}
+
+.brandLeft h3{
+    font-size: 20px;
+    font-weight: 300;
+    width: 30%;
+  
+}
+
+.footLogo img{
+    width: 20%;
+}
+
+.footWrap{
+    flex-direction: column;
+    width:85%;
+}
+
+
+.footRight{
+   flex-direction: column;
+   width: 100%;
+}
+
+.footLeft{
+    width: 100%;
+}
+
+
+li{
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.footRight h4{
+    font-size: 18px;
+    
+}
+
+.footLeft p{
+    font-size: 16px;
+    width: 8%;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.copyright p{
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+}
